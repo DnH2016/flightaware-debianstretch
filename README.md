@@ -3,7 +3,7 @@ A series of scripts to build dump1090 and flightaware, install and start in debi
 
 I've written this to help people with little experience set up a flightaware system under a command line version of Debian. 
 
-If I've done it rught then all you need to do is run the following commands from a completely fresh installation of Debian stretch on the command line. You can paste into putty using shift+insert
+If I've done it right then all you need to do is run the following commands from a completely fresh installation of Debian stretch on the command line. You can paste into putty using shift+insert
 
 $apt-get install git
 
