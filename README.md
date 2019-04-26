@@ -17,8 +17,12 @@ cd flightaware_debianstretch
 
 shutdown -r now
 
+(If anyone knows how to trigger the startup without going through a shutdown, that would be very helpful)
+
 Then, when restart is complete, claim your receiver at flightaware on the following link.
 
 https://flightaware.com/adsb/piaware/claim
+
+I've found that I need to close the browser window and re-open to make it all work.
 
 
