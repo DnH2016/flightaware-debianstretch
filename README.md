@@ -7,7 +7,7 @@ If I've done it right then all you need to do is run the following commands from
 
 $apt-get install git  -y
 
-$git clone https://github.com/DnH2016/flightaware_debianstretch
+$git clone https://github.com/DnH2016/flightaware-debianstretch
 
 $cd flightaware_debianstretch
 
