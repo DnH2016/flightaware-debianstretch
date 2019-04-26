@@ -5,17 +5,19 @@ I've written this to help me set up a flightaware system under a command line ve
 
 If I've done it right then all you need to do is run the following commands from a completely fresh installation of Debian stretch on the command line. You can paste into putty using shift+insert
 
-$apt-get install git  -y
+Entering these commands as root
 
-$git clone https://github.com/DnH2016/flightaware-debianstretch
+apt-get install git  -y
 
-$cd flightaware_debianstretch
+git clone https://github.com/DnH2016/flightaware-debianstretch
 
-$./flightaware.sh
+cd flightaware_debianstretch
 
+./flightaware.sh
 
+shutdown -r now
 
-Then claim your receiver at flightaware on the following link.
+Then, when restart is complete, claim your receiver at flightaware on the following link.
 
 https://flightaware.com/adsb/piaware/claim
 
