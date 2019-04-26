@@ -9,7 +9,7 @@ $apt-get install git
 
 $git clone https://github.com/DnH2016/flightaware_debianstretch
 
-$cd flightawaware_debianstretch
+$cd flightaware_debianstretch
 
 $./flightaware.sh
 
