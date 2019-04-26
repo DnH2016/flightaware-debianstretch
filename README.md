@@ -6,8 +6,11 @@ I've written this to help people with little experience set up a flightaware sys
 If I've done it rught then all you need to do is run the following commands from a completely fresh installation of Debian stretch on the command line.
 
 apt-get install git
+
 git clone https://github.com/DnH2016/flightaware_debianstretch
+
 cd flightawaware_debianstretch
+
 ./flightaware.sh
 
 You can paste into putty using shift+insert
