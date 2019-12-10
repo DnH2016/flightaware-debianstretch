@@ -1,7 +1,7 @@
 #!
 if grep -q "buster" /etc/os-release
 then
-cd tmp/piaware_builder/package-buster
+cd tmp/piaware_builder/package-stretch
 else
 cd tmp/piaware_builder/package-stretch
 fi
