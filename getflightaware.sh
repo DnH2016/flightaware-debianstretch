@@ -5,9 +5,14 @@ if grep -q "buster" /etc/os-release
 then
 	echo "Clone --branch dev for Buster"
  	git clone --branch dev https://github.com/flightaware/piaware_builder
+	cd piaware-builder
+	./sensible build.sh buster
+	cd package-buster
+
 else
         git clone https://github.com/flightaware/piaware_builder
+	cd piaware_builder
+	./sensible-build.sh stretch
+	cd package-stretch
+
 fi
-cd piaware_builder
-./sensible-build.sh stretch
-cd package-stretch

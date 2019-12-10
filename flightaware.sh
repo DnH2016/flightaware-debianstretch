@@ -8,5 +8,5 @@ PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
 ./builddump1090.sh
 ./getflightaware.sh
 ./buildflightaware.sh
-rm -rf tmp
+#rm -rf tmp
 piaware-status
