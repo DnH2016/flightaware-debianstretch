@@ -9,4 +9,6 @@ PATH=$PATH:/usr/local/sbin:/usr/sbin:/sbin
 ./getflightaware.sh
 ./buildflightaware.sh
 #rm -rf tmp
+piaware-config
+systemctl restart piaware
 piaware-status
